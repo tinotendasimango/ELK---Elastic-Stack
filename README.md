@@ -11,7 +11,7 @@ Kibana: This is the web interface dashboard used for searching and exploring the
 
 Beats: This is a lightweight transport agent with pluginsused to aggregate application data from different servers and applications and then send the data to either Logstash or Elasticsearch for processing.
 
-#Installation
+# Installation
 Run the elk.sh script which will run installation in all other scripts in their order.
 This installation will work on Ubuntu.
 If using a different distro, you can edit the shebang line to suit your distro and also used sed to change the package manager.
